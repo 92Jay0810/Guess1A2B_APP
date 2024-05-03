@@ -7,12 +7,7 @@
 
 ---
 
-| start fragment |
-|---|
-|![圖片](https://github.com/92Jay0810/Guess1A2B_APP/assets/96120430/1e9fe334-36e5-4fa6-b918-5ce99d5a3a36)|
-| guess fragment |
-|---|
-|![圖片](https://github.com/92Jay0810/Guess1A2B_APP/assets/96120430/0bbbe2af-68c0-4f57-aafa-823c0bbe1eae)|
-| result fragment |
-|---|
-|![圖片](https://github.com/92Jay0810/Guess1A2B_APP/assets/96120430/2959c888-a1b7-4285-a2fa-2d73d28d0d7c)|
+| start fragment | guess fragment| result fragment |
+|---|---|---|
+|![圖片](https://github.com/92Jay0810/Guess1A2B_APP/assets/96120430/1e9fe334-36e5-4fa6-b918-5ce99d5a3a36)| ![圖片](https://github.com/92Jay0810/Guess1A2B_APP/assets/96120430/0bbbe2af-68c0-4f57-aafa-823c0bbe1eae)|![圖片](https://github.com/92Jay0810/Guess1A2B_APP/assets/96120430/2959c888-a1b7-4285-a2fa-2d73d28d0d7c)|
+
