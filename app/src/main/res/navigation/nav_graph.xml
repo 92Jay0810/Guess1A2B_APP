@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+<!-- fragment 起始設定 -->
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.Guess1A2B_APP.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.Guess1A2B_APP.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.Guess1A2B_APP.startFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_guessFragment"
+            app:destination="@id/guessFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_historyFrament"
+            app:destination="@id/historyFrament" />
+    </fragment>
+    <fragment
+        android:id="@+id/guessFragment"
+        android:name="com.example.Guess1A2B_APP.guessFragment"
+        android:label="guessFragment" >
+        <action
+            android:id="@+id/action_guessFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.Guess1A2B_APP.resultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_resultFragment_to_guessFragment"
+            app:destination="@id/guessFragment" />
+        <action
+            android:id="@+id/action_resultFragment_to_historyFrament"
+            app:destination="@id/historyFrament" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFrament"
+        android:name="com.example.Guess1A2B_APP.historyFrament"
+        android:label="fragment_history_frament"
+        tools:layout="@layout/fragment_history_frament" >
+        <action
+            android:id="@+id/action_historyFrament_to_stageHistoryFragment"
+            app:destination="@id/stageHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stageHistoryFragment"
+        android:name="com.example.Guess1A2B_APP.stageHistoryFragment"
+        android:label="fragment_stage_history"
+        tools:layout="@layout/fragment_stage_history" >
+        <action
+            android:id="@+id/action_stageHistoryFragment_to_recordHistoryFragment"
+            app:destination="@id/recordHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recordHistoryFragment"
+        android:name="com.example.Guess1A2B_APP.recordHistoryFragment"
+        android:label="fragment_record_history"
+        tools:layout="@layout/fragment_record_history" />
+</navigation>
