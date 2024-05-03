@@ -4,6 +4,9 @@
 | navigation graph |
 |---|
 |![圖片](https://github.com/92Jay0810/Guess1A2B_APP/assets/96120430/3ed76aca-651f-4ba7-b6a4-64cac4b62295)|
+
+---
+
 | start fragment |
 |---|
 |![圖片](https://github.com/92Jay0810/Guess1A2B_APP/assets/96120430/1e9fe334-36e5-4fa6-b918-5ce99d5a3a36)|
